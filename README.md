@@ -36,8 +36,10 @@ From the above characteristic table, we can directly write the next state equati
 **PROGRAM**
 ![tflipflop program](https://github.com/user-attachments/assets/87c25aef-cd45-465c-b1c3-a3c47dd90fe1)
 
+
 **RTL LOGIC FOR FLIPFLOPS**
 ![image](https://github.com/user-attachments/assets/cc090129-eef3-4beb-9efa-0e2d67aeb959)
+
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 ![tflipflop wavefrom](https://github.com/user-attachments/assets/b293198e-4846-4c71-abc1-10988dd462fa)
