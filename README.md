@@ -34,8 +34,18 @@ From the above characteristic table, we can directly write the next state equati
 5.for different input combinations generate the timing diagram
 
 **PROGRAM**
-![tflipflop program](https://github.com/user-attachments/assets/87c25aef-cd45-465c-b1c3-a3c47dd90fe1)
-
+module tflipflop(t,clk,rst,q);
+    input t,clk,rst;
+	 output q;
+	 reg q;
+	 always @(posedge clk)begin 
+	 if(rst)
+	     q<=0;
+	 else if (t)
+	     q<=~q;
+	 end 
+endmodule
+/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by :Jude tarun  RegisterNumber :24003400 */
 
 **RTL LOGIC FOR FLIPFLOPS**
 ![image](https://github.com/user-attachments/assets/cc090129-eef3-4beb-9efa-0e2d67aeb959)
